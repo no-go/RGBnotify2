@@ -1,5 +1,7 @@
 # RGB Notify 2
 
+THIS BRANCH HAS AN I2C OLED INSTEAD OF A SINGLE RGB LED. YOU CAN USE THE ATTINY85 AS TERMINAL.
+
 ![logo](app/src/main/res/drawable-hdpi/icon.png)
 
 This App is part of a small ATtin85 project. It sends a specific LED color code to a ATtiny85 and nRF51822 (UART) device:
@@ -9,7 +11,7 @@ This App is part of a small ATtin85 project. It sends a specific LED color code 
   - L..S - green value
   - T..Z - blue value
 
-Some "Disco modes" are added, too!
+Some "Disco modes" are added, too! You can send text messages, too!
 
 ## App
 
@@ -20,11 +22,17 @@ You can optionaly get a signed APK from here: [APK](https://raw.githubuserconten
 
 ## The Firmware
 
-[firmware for Arduino IDE](https://raw.githubusercontent.com/no-go/RGBnotify2/master/firmware/firmware.ino)
+[firmware for Arduino IDE](https://raw.githubusercontent.com/no-go/RGBnotify2/oled/firmware/firmware.ino)
 
-## Circuit
+## Circuit (OLED Terminal)
 
-![Circuit with ATtin85 and nRF51822](_img/circuit.png)
+![Circuit with ATtin85, nRF51822 and OLED](_img/circuit.png)
+
+![Picture of device](_img/action.jpg)
+
+## Bugs
+
+on 20. July 2017 : it is still a bit buggy (clear display).
 
 ## License
 
