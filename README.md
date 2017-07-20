@@ -24,6 +24,8 @@ You can optionaly get a signed APK from here: [APK](https://raw.githubuserconten
 
 ## Circuit
 
+ATTENTION! the Lipo has sometimes more than 3.7 V. The nRF51822 Chip NEEDS 3.3 - 3.6 V. Thus, this circuit may brick your bluetooth module!!!
+
 ![Circuit with ATtin85 and nRF51822](_img/circuit.png)
 
 ## License
