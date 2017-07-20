@@ -26,13 +26,16 @@ You can optionaly get a signed APK from here: [APK](https://raw.githubuserconten
 
 ## Circuit (OLED Terminal)
 
+ATTENTION! the Lipo has sometimes more than 3.7 V. The nRF51822 Chip
+NEEDS 3.3 - 3.6 V. Thus, this circuit may brick your bluetooth module!!!
+
 ![Circuit with ATtin85, nRF51822 and OLED](_img/circuit.png)
 
 ![Picture of device](_img/action.jpg)
 
 ## Bugs
 
-on 20. July 2017 : it is still a bit buggy (clear display).
+on 20. July 2017 : it is still a bit buggy.
 
 ## License
 
